@@ -98,3 +98,5 @@ Prima di cominciare, assicurati di avere installato:
 ### Se ti è piaciuto questo progetto, puoi offirmi un caffè! ☕
 
 [![Buy me a coffee](https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png)](https://buymeacoffee.com/devidd)
+
+Cliccando sul link, puoi scegliere di donarmi quanto vuoi o iscriverti per 30€ al mese per supportare lo sviluppo continuo di questo progetto.
