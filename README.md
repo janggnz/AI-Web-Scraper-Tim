@@ -1,102 +1,102 @@
-# AI Web Scraper with Ollama
+# AI Web Scraper con Ollama
 
-This project allows you to scrape websites and analyze their content using Ollama's Llama3 AI model. The scraper fetches and processes data from websites, allowing you to ask questions about the extracted DOM content and download the results.
+Questo progetto ti permette di fare il scraping dei siti web e analizzare il loro contenuto utilizzando il modello Llama3 di Ollama. Il programma estrae e processa i dati dai siti web, permettendoti di fare domande sul contenuto DOM estratto e di scaricare i risultati.
 
-If you prefer the Italian version of this project, you can find it [here](https://github.com/dddevid/AI-Web-Scraper-Ollama/tree/Italian).
+Se preferisci la versione in inglese di questo progetto, puoi trovarla [qui](https://github.com/dddevid/AI-Web-Scraper-Ollama).
 
-## Prerequisites
+## Requisiti
 
-Before you begin, make sure you have the following installed:
+Prima di cominciare, assicurati di avere installato:
 
-- Python 3.8 or higher
-- `pip` (Python package installer)
+- Python 3.8 o superiore
+- `pip` (gestore di pacchetti Python)
 
-### Step 1: Install Ollama and Llama3
+### Passaggio 1: Installa Ollama e Llama3
 
-1. **Download Ollama**:
-   - Ollama is a platform that runs AI models like Llama3. You can download Ollama for your system from the official website:  
-     [Ollama Download](https://ollama.com/download)
+1. **Scarica Ollama**:
+   - Ollama è una piattaforma che esegue modelli di intelligenza artificiale come Llama3. Puoi scaricare Ollama per il tuo sistema dal sito ufficiale:  
+     [Download Ollama](https://ollama.com/download)
 
-2. **Install Llama3 model**:
-   - After downloading Ollama, you need to install the Llama3 model. Open a terminal or command prompt and run the following command to install the Llama3 model:
+2. **Installa il modello Llama3**:
+   - Dopo aver scaricato Ollama, devi installare il modello Llama3. Apri un terminale o prompt dei comandi e esegui il seguente comando per installare il modello Llama3:
      ```
      ollama install llama3
      ```
 
-### Step 2: Clone the Repository
+### Passaggio 2: Clona il Repository
 
-1. **Clone the repository**:
-   - First, clone the GitHub repository to your local machine by running the following command:
+1. **Clona il repository**:
+   - Per prima cosa, clona il repository GitHub sulla tua macchina locale eseguendo il seguente comando, specificando il branch italiano:
      ```
-     git clone https://github.com/dddevid/AI-Web-Scraper-Ollama.git
+     git clone --branch Italian https://github.com/dddevid/AI-Web-Scraper-Ollama.git
      ```
 
-2. **Navigate into the project directory**:
-   - Change into the project directory by running:
+2. **Naviga nella cartella del progetto**:
+   - Cambia nella cartella del progetto eseguendo:
      ```
      cd AI-Web-Scraper-Ollama
      ```
 
-### Step 3: Set up the Python Environment
+### Passaggio 3: Configura l'Ambiente Python
 
-1. **Create a virtual environment (optional but recommended)**:
-   - Create a virtual environment to manage the project's dependencies:
+1. **Crea un ambiente virtuale (opzionale ma consigliato)**:
+   - Crea un ambiente virtuale per gestire le dipendenze del progetto:
      ```
      python -m venv venv
      ```
 
-2. **Activate the virtual environment**:
-   - On Windows:
+2. **Attiva l'ambiente virtuale**:
+   - Su Windows:
      ```
      venv\Scripts\activate
      ```
-   - On macOS/Linux:
+   - Su macOS/Linux:
      ```
      source venv/bin/activate
      ```
 
-3. **Install required dependencies**:
-   - The `requirements.txt` file is located in the `ddbqscript` folder. Install the necessary Python libraries by running:
+3. **Installa le dipendenze richieste**:
+   - Il file `requirements.txt` si trova nella cartella `ddbqscript`. Installa le librerie Python necessarie eseguendo:
      ```
      pip install -r ddbqscript/requirements.txt
      ```
 
-### Step 4: Run the Application
+### Passaggio 4: Esegui l'Applicazione
 
-#### On Windows:
+#### Su Windows:
 
-- **Run the script using the batch file**:
-  - Use the `Executethescript.bat` file to start the application:
+- **Esegui lo script utilizzando il file batch**:
+  - Usa il file `Executethescript.bat` per avviare l'applicazione:
     ```
     Executethescript.bat
     ```
 
-#### On macOS/Linux:
+#### Su macOS/Linux:
 
-- **Run the script using Streamlit**:
-  - Start the Streamlit app by running the following command:
+- **Esegui lo script utilizzando Streamlit**:
+  - Avvia l'app Streamlit eseguendo il seguente comando:
     ```
     streamlit run ddbqscript/main.py
     ```
 
-2. **Access the app**:
-   - The Streamlit interface should open in your web browser. You can now enter a website URL, scrape its content, and analyze it using Llama3.
+2. **Accedi all'app**:
+   - L'interfaccia Streamlit si aprirà nel tuo browser. Ora puoi inserire un URL di un sito web, fare scraping del suo contenuto e analizzarlo usando Llama3.
 
-### Step 5: Usage
+### Passaggio 5: Utilizzo
 
-- **Scraping a website**: Enter a URL and click on "Scrape the website" to scrape the site's content.
-- **Analyzing content**: After scraping, you can input a description of what you want to analyze, and the AI will process the content.
-- **Downloading results**: Once the analysis is complete, you can download the results in both JSON and TXT formats.
+- **Fare scraping di un sito web**: Inserisci un URL e clicca su "Scrape the website" per fare scraping del contenuto del sito.
+- **Analizzare il contenuto**: Dopo aver fatto lo scraping, puoi inserire una descrizione di cosa vuoi analizzare, e l'IA processerà il contenuto.
+- **Scaricare i risultati**: Una volta completata l'analisi, puoi scaricare i risultati nei formati JSON e TXT.
 
-### Troubleshooting
+### Risoluzione dei Problemi
 
-- **Ollama not found**: If you encounter an error related to Ollama, make sure it is correctly installed and added to your system's PATH.
-- **Missing dependencies**: Ensure all required Python packages are installed by running `pip install -r ddbqscript/requirements.txt`.
+- **Ollama non trovato**: Se ricevi un errore relativo a Ollama, assicurati che sia correttamente installato e che sia aggiunto al PATH del sistema.
+- **Dipendenze mancanti**: Assicurati di aver installato tutte le librerie Python necessarie eseguendo `pip install -r ddbqscript/requirements.txt`.
 
 ---
 
-### If you enjoyed this project, you can buy me a coffee! ☕
+### Se ti è piaciuto questo progetto, puoi offirmi un caffè! ☕
 
 [![Buy me a coffee](https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png)](https://buymeacoffee.com/devidd)
 
-By clicking the link, you can choose to donate any amount or subscribe for 30€ per month to support the ongoing development of this project.
+Cliccando sul link, puoi scegliere di donarmi quanto vuoi o iscriverti per 30€ al mese per supportare lo sviluppo continuo di questo progetto.
