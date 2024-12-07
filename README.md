@@ -66,9 +66,9 @@ Prima di cominciare, assicurati di avere installato:
 #### Su Windows:
 
 - **Esegui lo script utilizzando il file batch**:
-  - Usa il file `EseguiScript.bat` per avviare l'applicazione:
+  - Usa il file `Executethescript.bat` per avviare l'applicazione:
     ```
-    EseguiScript.bat
+    Executethescript.bat
     ```
 
 #### Su macOS/Linux:
@@ -92,3 +92,11 @@ Prima di cominciare, assicurati di avere installato:
 
 - **Ollama non trovato**: Se ricevi un errore relativo a Ollama, assicurati che sia correttamente installato e che sia aggiunto al PATH del sistema.
 - **Dipendenze mancanti**: Assicurati di aver installato tutte le librerie Python necessarie eseguendo `pip install -r ddbqscript/requirements.txt`.
+
+---
+
+### Se ti è piaciuto questo progetto, puoi offirmi un caffè! ☕
+
+<div style="text-align: center;">
+    <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="devidd" data-color="#FFDD00" data-emoji="☕" data-font="Poppins" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff"></script>
+</div>
